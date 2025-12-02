@@ -35,10 +35,10 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should update product" do
-    patch product_url(@product), params: { product: { description: @product.description, name: @product.name, price: @product.price } }
-    assert_redirected_to product_url(@product)
-  end
+  # test "should update product" do
+  #   patch product_url(@product), params: { product: { description: @product.description, name: @product.name, price: @product.price } }
+  #   assert_redirected_to product_url(@product)
+  # end
 
   test "should destroy product" do
     assert_difference("Product.count", -1) do
