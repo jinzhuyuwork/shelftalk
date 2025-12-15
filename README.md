@@ -8,6 +8,7 @@ A Ruby on Rails application backed with SQLite database that allows users to man
 - **Authentication**: Secure signup, login, and JWT-based API access.
 - **Authorization**: Only admin users can create or update products. Non-admins have read-only access.
 - **Products Management**: Create, read, update products.
+- **Comments**: Users can add comments to products
 
 ## Testing
 
