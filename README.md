@@ -2,7 +2,7 @@
 
 # ShelfTalk
 
-A Ruby on Rails application backed with SQLite database that allows users to manage products on the shelf.
+A Ruby on Rails application backed with SQLite database that allows users to manage products on the shelf. Users can comment on products.
 
 ## Features
 - **Authentication**: Secure signup, login, and JWT-based API access.
